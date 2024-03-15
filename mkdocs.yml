@@ -36,7 +36,21 @@ markdown_extensions:
      
 plugins:
     - search
-
+    - blogging:
+        theme: 
+          name: card
+        dirs:
+            - blog
+        size: 10
+        paging: true
+        show_total: true
+        locale: en
+        features:
+           tags:
+              index_page: tags.md
+              insert: top
+        time_format: '%Y-%m-%d' # The format used to display the time
+        meta_time_format: '%Y-%m-%d' # The format used to parse the time from meta
 # All of these are needed for mathjax (equations and symbols) support
 extra_javascript:
 #  - javascripts/mathjax.js
