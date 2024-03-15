@@ -6,6 +6,10 @@ Welcome to chriskempke.com, unsurprisingly, the home of Christopher Kempke, LLC.
 
 If you're here because you've discovered a problem in (or just need help with) our software, please let us know by email at  support@chriskempke.com.   If you're looking for our privacy policy, see below.
 
+## What's New?
+
+{{ blog_content }}
+
 ## Privacy Policy
 
 For all current Christopher Kempke, LLC.  products:
