@@ -1,0 +1,67 @@
+site_name: Christopher Kempke Support
+site_url: https://ckempke.github.io/support
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary: deep purple
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+nav:
+    - Home: index.md
+    - Posts by Topic: tags.md
+       
+# toc adds sub-page "permalinks" to headers (address#header)
+# pymdownx.arithmatex adds mathjax/katex support for equations and such
+markdown_extensions:
+  - toc:
+        permalink: true
+  - attr_list
+  - footnotes
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+     
+plugins:
+    - search
+    - blogging:
+        theme: 
+          name: card
+        dirs:
+            - blog
+        size: 10
+        paging: true
+        show_total: true
+        locale: en
+        features:
+           tags:
+              index_page: tags.md
+              insert: top
+        time_format: '%Y-%m-%d' # The format used to display the time
+        meta_time_format: '%Y-%m-%d' # The format used to parse the time from meta
+
+
+# All of these are needed for mathjax (equations and symbols) support
+extra_javascript:
+#  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+# This (and the "extra-css" below may not be necessary, mathJAX seems to provide all the
+# functionality necessary by itself, albeit with a slightly different syntax (line breaks
+# need to be escaped, so \\\\ rather than \\ in equations.))
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js
+   
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css
