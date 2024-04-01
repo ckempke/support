@@ -14,13 +14,17 @@ If you're here because you've discovered a problem in (or just need help with) o
 
 For all current Christopher Kempke, LLC.  products:
 
-We are not in the business of collecting personal information.   If we get any on us, we'll wash it off.
+We are not in the business of collecting (or selling) personal information.   If we get any on us, we'll wash it off.
 
-Our software is available through various App Stores (currently, just ones run by Apple).  Their [privacy policy is here](https://www.apple.com/legal/privacy/en-ww/).   As part of the purchase/download process, Apple sends us certain information by e-mail, and certain information is available in the developer dashboard.    This may include your e-mail address (or a forwarding e-mail address if you use Apple's privacy features), and some general geographic data (what country you're in, what currency you used, and some tax stuff), but is otherwise pretty limited.
+Our software is available through various App Stores (currently, just ones run by Apple).  Their [privacy policy is here](https://www.apple.com/legal/privacy/en-ww/).   As part of the purchase/download process, these stores send us certain information by e-mail, and other information is available in the developer dashboard.    This may include your e-mail address (or a forwarding e-mail address if you use Apple's privacy features), and some general geographic data (what country you're in, what currency you used, and some tax information).   
+
+*We do not have access to actual payment information; the App Store is the payment processor.*   We can't misuse or reveal your credit card information, because we don't have it. 
 
 **We reserve the right to use those e-mail addresses in the event of critical need.**   That would be something like "Hey, there's a bug in the current version that deletes your data, don't use it!"
 
 Otherwise, that information is archived and stored, but not otherwise used beyond what's necessary to handle transactions (and if you initiate them, service support requests.)   We do not market by e-mail, sell information about our customers, or otherwise use your personal information for any purpose whatsoever other than to take up some space on our hard drives.
+
+We do not presently have any services that require logins or passwords.  However, our apps may support synchronization of data through standard OS services.   (That's the complicated way of saying "We work with iCloud if you've got it turned on.")
 
 ## Cookies
 

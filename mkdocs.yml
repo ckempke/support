@@ -17,7 +17,10 @@ theme:
         name: Switch to light mode
 nav:
     - Home: index.md
+    - Products:
+       - Mandarin Fish: products/mandarinfish.md
     - Posts by Topic: tags.md
+    - Licenses: licenses.md
        
 # toc adds sub-page "permalinks" to headers (address#header)
 # pymdownx.arithmatex adds mathjax/katex support for equations and such
