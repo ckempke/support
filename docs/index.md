@@ -8,7 +8,11 @@ If you're here because you've discovered a problem in (or just need help with) o
 
 ## What's New?
 
-{{ blog_content }}
+> A complete list of news articles is available in the sidebar.
+
+3/26/2024 - We've released our first app, a Chinese/English dictionary called _Mandarin Fish_.  You can get it for mac, iOS, and visionOS (one purchase for all!) in the App Store.
+
+[![app-store-black](products/media/app-store-black.svg)](https://apple.co/3JAySnu)
 
 ## Privacy Policy
 

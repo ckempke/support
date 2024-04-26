@@ -1,17 +1,17 @@
-site_name: Christopher Kempke Support
+site_name: Christopher Kempke, LLC Support
 site_url: https://ckempke.github.io/support
 theme:
   name: material
   palette:
     - media: "(prefers-color-scheme: light)" 
       scheme: default
-      primary: deep purple
+      primary: deep orange
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)" 
       scheme: slate
-      primary: deep purple
+      primary: deep orange
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
@@ -19,7 +19,8 @@ nav:
     - Home: index.md
     - Products:
        - Mandarin Fish: products/mandarinfish.md
-    - Posts by Topic: tags.md
+    - News:
+       - blog/index.md
     - Licenses: licenses.md
        
 # toc adds sub-page "permalinks" to headers (address#header)
@@ -39,21 +40,10 @@ markdown_extensions:
      
 plugins:
     - search
-    - blogging:
-        theme: 
-          name: card
-        dirs:
-            - blog
-        size: 10
-        paging: true
-        show_total: true
-        locale: en
-        features:
-           tags:
-              index_page: tags.md
-              insert: top
-        time_format: '%Y-%m-%d' # The format used to display the time
-        meta_time_format: '%Y-%m-%d' # The format used to parse the time from meta
+    - blog:
+        blog_dir: blog
+        blog_toc: true
+        post_date_format: full
 # All of these are needed for mathjax (equations and symbols) support
 extra_javascript:
 #  - javascripts/mathjax.js

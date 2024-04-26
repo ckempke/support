@@ -1,11 +1,6 @@
 ---
-title: "We're just getting Started!"
-date: 2024-3-14
-author: Christopher Kempke
-description: Watch this space for more!
-tags: 
-  - announcements
-...
+date: 2024-03-14
+---
 
 # Hey, look at us!
 
